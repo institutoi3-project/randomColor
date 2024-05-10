@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>version 1</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>version 1</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <main class="centrar-flex">
       <div id="contenedor">
         <p class="color" id="color1">#6495ed</p>
@@ -14,73 +14,83 @@
         <button>Cambiar Color</button>
       </div>
     </main>
-  <div id="contenedor2">
-    <table>
-      <thead>
-        <tr>
-          <th>comandos</th>
-          <th>descripcion</th>
-          <th>ejemplo</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>git log</td>
-          <td>muestra todos los commits generados</td>
-          <td><code>git log</code></td>
-        </tr>
-        <tr>
-          <td>git clone</td>
-          <td>tiene como funcion clonar un proyecto </td>
-          <td>git clone https://github.com/institutoi3-project/randomColor.git</td>
-        </tr>
-        <tr>
-          <td>git init</td>
-          <td>inicia git en mi carpeta</td>
-          <td><code>git init</code></td>
-        </tr>
-        <tr>
-          <td>git config user.name</td>
-          <td>configura el nombre del desarrollador</td>
-          <td><code>git config user.name "Pepito Perez"</code></td>
-        </tr>
-        <tr>
-          <td>git config user.email</td>
-          <td>configura el correo del desarrollador</td>
-          <td><code>git config user.email "pepito.perez@servidor.com"</code></td>
-        </tr>
-        <tr>
-          <td>git merge</td>
-          <td>fusiona la rama en actual con otra rama</td>
-          <td><code>git merge pruebas</code></td>
-        </tr>
-        <tr style="background-color: red;">
-          <td>git pull --ff</td>
-          <td>avanza en conflictos paso a paso</td>
-          <td><code>git pull --ff</code></td>
-        </tr>
-        <tr>
-          <td>git branch</td>
-          <td>se utiliza para mostrar ramas en el repositorio</td>
-          <td><code>git branch</code></td>
-        </tr>
-          <td>git switch</td>
-          <td>este comando se utiliza para hacer un cambio de ramas</td>
-          <td><code>git switch pruebas</code></td>
-        </tr>
-       </tr>
-        <td>git status</td>
-        <td>El comando de git status nos da toda la información necesaria sobre la rama actual.</td>
-        <td><code>git status</code></td>
-       </tr>
-      </tr>
-      <td>git push</td>
-      <td>El comando de git push envía tus commits al repositorio remoto.</td>
-      <td><code>git push -u origin main</code></td>
-     </tr>
-      </tbody>
-    </table>
-  </div>
-  <script src="app.js"></script>
-</body>
+    <div id="contenedor2">
+      <table>
+        <thead>
+          <tr>
+            <th>comandos</th>
+            <th>descripcion</th>
+            <th>ejemplo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>git log</td>
+            <td>muestra todos los commits generados</td>
+            <td><code>git log</code></td>
+          </tr>
+          <tr>
+            <td>git clone</td>
+            <td>tiene como funcion clonar un proyecto</td>
+            <td>
+              git clone https://github.com/institutoi3-project/randomColor.git
+            </td>
+          </tr>
+          <tr>
+            <td>git init</td>
+            <td>inicia git en mi carpeta</td>
+            <td><code>git init</code></td>
+          </tr>
+          <tr>
+            <td>git config user.name</td>
+            <td>configura el nombre del desarrollador</td>
+            <td><code>git config user.name "Pepito Perez"</code></td>
+          </tr>
+          <tr>
+            <td>git config user.email</td>
+            <td>configura el correo del desarrollador</td>
+            <td>
+              <code>git config user.email "pepito.perez@servidor.com"</code>
+            </td>
+          </tr>
+          <tr>
+            <td>git merge</td>
+            <td>fusiona la rama en actual con otra rama</td>
+            <td><code>git merge pruebas</code></td>
+          </tr>
+          <tr style="background-color: red">
+            <td>git pull --ff</td>
+            <td>avanza en conflictos paso a paso</td>
+            <td><code>git pull --ff</code></td>
+          </tr>
+          <tr>
+            <td>git branch</td>
+            <td>se utiliza para mostrar ramas en el repositorio</td>
+            <td><code>git branch</code></td>
+          </tr>
+          <tr>
+            <td>git switch</td>
+            <td>este comando se utiliza para hacer un cambio de ramas</td>
+            <td><code>git switch pruebas</code></td>
+          </tr>
+          <tr>
+            <td>git status</td>
+            <td>
+              El comando de git status nos da toda la información necesaria
+              sobre la rama actual.
+            </td>
+            <td><code>git status</code></td>
+          </tr>
+          <tr>
+            <td>git push</td>
+            <td>
+              El comando de git push envía tus commits al repositorio remoto.
+            </td>
+            <td><code>git push -u origin main</code></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="app.js"></script>
+  </body>
 </html>
